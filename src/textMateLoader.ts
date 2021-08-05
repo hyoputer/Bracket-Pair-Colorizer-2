@@ -114,7 +114,7 @@ export class TextMateLoader {
     }
 
     private getNodeModulePath(moduleName: string) {
-        return path.join(vscode.env.appRoot, 'node_modules.asar', moduleName);
+        return path.join(vscode.env.appRoot, 'node_modules', moduleName);
     }
 
     private getNodeModule(moduleName: string) {
